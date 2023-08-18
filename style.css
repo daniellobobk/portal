@@ -192,7 +192,6 @@ body {
     width: 275px;
     min-height: 200px;
     float: right;
-    background-color: #ccc;
     margin-left: 12px;
   }
 
@@ -206,8 +205,29 @@ body {
 .widget{
     background-color: white;
     border:1px solid gray;
+    margin-bottom: 20px;
 }
 
-.titulo {
+.titulo{
 height: 30px;
+border-bottom:  1px solid gray;
+background-color: #ddd;
+line-height: 30px;
+padding-left: 5px;
+font-weight: bold;
+font-size: 14px;
+color: black; }
+
+.conteudo {
+   color: black;
+   text-align: center;
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+
+.noticiaitem {
+  text-align: left;
+  margin: 0px 10px;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0px;
 }
